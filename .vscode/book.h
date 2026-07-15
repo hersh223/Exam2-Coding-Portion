@@ -11,7 +11,7 @@ class Book
         string title;
         string author;
         int pages;
-        const string IBSN;
+        const string ISBN;
 
     public: Book(string t, string a, string isbn, int p);
 

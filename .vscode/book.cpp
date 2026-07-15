@@ -1,6 +1,6 @@
 #include "Book.h"
 
-Book::Book(string t, string a, string ibsn, int p):IBSN(ibsn){
+Book::Book(string t, string a, string isbn, int p):ISBN(isbn){
     title = t;
     author = a;
     pages = p;
