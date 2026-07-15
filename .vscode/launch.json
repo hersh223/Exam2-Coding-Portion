@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/herschelmarcus/Documents/GitHub/D1.2/Exam2-Coding-Portion",
-      "program": "/Users/herschelmarcus/Documents/GitHub/D1.2/Exam2-Coding-Portion/build/Debug/outDebug"
+      "cwd": "/Users/herschelmarcus/Documents/GitHub/D1.2/Exam2-Coding-Portion/.vscode",
+      "program": "/Users/herschelmarcus/Documents/GitHub/D1.2/Exam2-Coding-Portion/.vscode/build/Debug/outDebug"
     }
   ]
 }
