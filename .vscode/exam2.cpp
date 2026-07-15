@@ -1,5 +1,5 @@
 #include "Time.h"
-
+#include "Book.h"
 #include <iostream>
 
 using namespace std;
@@ -32,4 +32,16 @@ int main()
 
     cout << endl;
 
+    // Book Test
+    cout << "--- Testing Book Class ---" << endl;
+
+     Book book("The Cat In The Hat", "Dr. Seuss", "978-0-394-80001-1", 61);
+
+     cout << "Citation: " << book.getCitation() << endl;
+        cout << "Estimated Reading Time: " << book.getReadingTime() << " hours" << endl;
+        cout << book.openToBookmark() << endl;
+        cout << book.closeBook() << endl;
+        return 0;
+
 }
+
